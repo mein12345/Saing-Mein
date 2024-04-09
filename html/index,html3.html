@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>training</title>
+    <style>
+    .border-rotate {
+  position: relative; /* Position the pseudo-elements relative to the parent */
+  display: inline-block; /* Make sure the element respects width and height */
+}
+
+.border-rotate::before,
+.border-rotate::after {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute; /* Position the pseudo-elements */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 4px solid transparent; /* Set the border style and width */
+  border-radius: 10px; /* Adjust the border radius if needed */
+  animation: rotateBorder 5s linear infinite; /* Apply the animation to rotate the border */
+}
+
+.border-rotate::before {
+  border-top-color: red; /* Set the color of the top border */
+  border-right-color: blue; /* Set the color of the right border */
+}
+
+.border-rotate::after {
+  border-bottom-color: green; /* Set the color of the bottom border */
+  border-left-color: yellow; /* Set the color of the left border */
+}
+
+@keyframes rotateBorder {
+  0% {
+    transform: rotate(0deg); /* Initial rotation angle */
+  }
+  100% {
+    transform: rotate(360deg); /* Final rotation angle */
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <h1 class="border-rotate">Rotating Border</h1>
+
+  </body>
+</html>

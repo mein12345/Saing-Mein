@@ -1,0 +1,11 @@
+.header{
+    color: red;
+}
+ .navbar-section{
+    height: 200px;
+    background-color: yellow;
+ }
+ .navbar{
+    height: 100px;
+    background-color: red;
+ }

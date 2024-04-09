@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    transition: all 0.5s linear;
+
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.header-container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container{
+    max-width: 110px;
+    height: 20px;
+    overflow: hidden;
+}
+.logo-container img{
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.menu-container ul{
+    display: flex;
+    align-items: center;
+}
+.menu-container ul li{
+    list-style-type: none;
+    display: block;
+    margin: 0 15px 0 15px;
+    font-weight: 400;
+}
+.menu-container ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu-container ul li:hover{
+    font-weight: 500;
+}
+.menu-container .icon-container{
+    display: flex;
+    font-size: 14px;
+}
+.menu-container .icon-container i{
+    margin: 0 5px;
+}
+.menu-container .icon-container a{
+    color: black;
+}
+.menu-container .icon-container i:hover{
+    color: red;
+}
+.main{
+    width: 100%;
+    height: 1050px;
+    background-image: url(/image/image\ 3.svg);
+    background-size: cover;
+    background-position: center top -150px;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: -1;
+    position:relative;
+    
+}
+.main-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -120px;
+}
+.content-container{
+    display: inline-block;
+    max-width: 600px;
+    margin-bottom: 45px;
+}
+.content-container h1{
+    font-size: 80px;
+    /* height: 195px; */
+    line-height: 99px;
+}
+.p-container p{
+    max-width: 450px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.table-container table tr th{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 45px;
+    
+}
+.table-container table {
+    margin-top: 45px;
+}
+.table-container table tr td{
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 45px;
+}
+.section-2{
+    height: auto;
+}
+.section-2 header{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.header-container1{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Products-container{
+    font-size: 65px;
+    max-width: 1200px;
+    line-height: 90px;
+    border-left: 4px solid;
+    margin-bottom: 15px;
+}
+.info-container p{
+    font-size: 18px;
+    max-width: 750px;
+}
+.button-container button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+.productList{
+    width: 380px;
+    height: 520px;
+    background-color: black;
+}
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+.top-container button{
+    width: 100px;
+    height: 30px;
+}
+/* .second-container{
+    width: 100%;
+    height: 880px;
+    position: relative; 
+    z-index: -1000;
+    top: 40px;
+    background-color: yellow;
+} */
+/* @media(max-width:1366px){
+    .main{
+        height: 600px;
+        background-position: center ;
+    }
+    .main-container{
+    }
+    .content-container{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 350px;
+    }
+    .content-container h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .p-container{
+        width: 300px;
+    }
+    .p-container p{
+        font-size: 13px;
+    }
+    .table-container table{
+        margin-top: 15px;
+    }
+    .table-container table tr th{
+        font-size: 13px;
+    }
+    .table-container table tr td{
+        font-size: 13px;
+        font-weight: bold;
+    }
+} */

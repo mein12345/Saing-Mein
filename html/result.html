@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Messenger</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .menuiconcontainer{
+            display: none;
+        }
+        .material-icons-outlined {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        cursor: pointer;
+        
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+        .maincontainer{
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        @media(max-width:1076px){
+            .left{
+                width: 60%;
+                margin: 0 auto;
+            }
+            .right{
+                overflow: hidden;
+                text-align: center;
+                width:80%;
+                margin: 0 auto;
+            }
+            .header{
+
+            }
+            .menucontainer{
+                display: none;
+            }
+            .logocontainer{
+            }
+            .menuiconcontainer{
+                display: block;
+            }
+            .menuiconcontainer:hover{
+                width: 1100px;
+                height: 600px;
+                z-index: 1;
+                background-color: red;
+            }
+            .material-icons-outlined{
+                display: ;
+            }
+        }
+        .header{
+            display: flex;
+            height: 100px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            padding: 0 30px;
+            position: sticky;
+            top: 0;
+            background-color:rgb(248, 249, 250);
+            border-bottom: 1px solid rgb(207, 203, 203);
+        }
+        .logo{
+            width: 40px;
+            height: 40px;
+        }
+        .menucontainer{
+            display: ;
+            justify-content: space-between;
+
+        }
+        .menulist{
+            list-style-type: none;
+            display: block;
+        }
+        a{
+            color: gray;
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+            font-weight: bold;
+        }
+        li{
+            display: inline-block;
+            margin: 10px;
+        }
+        .middle{
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        .left{
+            display: inline-block;
+        }
+        h1{
+            text-align: left;
+            font-size: 40px;
+            letter-spacing: 1.5px;
+            line-height: 30px;
+        }
+        h1,p{
+            margin: 10px;
+            padding: 6px;
+        }
+        .toggle{
+            display: block;
+            margin: 10px;
+            background-color: #F5F5F5;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            width: 320px;
+        }
+        .Login{
+            display: inline-block;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #0a7cff;
+            width: 100px;
+            margin: 10px;
+            border: 1px solid #0a7cff;
+            color: white;
+            font-size: 16px;
+        }
+        .Login:hover{
+            background-color:#4d4dff;
+            border: 1px solid #4d4dff;
+        }
+        .leftcontainer{
+        }
+        .microsoftimg{
+            width: 125px;
+            height: 40px;
+        }
+        .right{
+            display: inline-block;
+        }
+        .rightimage{
+            width: 100%;
+            height: 600px;
+        }
+        .toggle:focus{
+            border: 1px solid lightblue;
+            outline: none;
+        }
+        .checkboxcontainer{
+            margin: 10px;
+        }
+        .microsoftimg{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="header">
+            <div class="logocontainer">
+                <img class="logo" src="https://bit.ly/3HZZFZM" alt="messengerlogo">
+            </div>
+            <div class="menucontainer">
+                <ul class="menulist">
+                   <li>
+                    <a href="#">Features</a> 
+                </li>
+                   <li>
+                    <a href="#">Desktop app</a> 
+                </li>
+                   <li>
+                    <a href="#">Privacy and safety</a>
+                 </li>
+                   <li>
+                    <a href="#">For developer</a>
+                 </li>
+                </ul>
+            </div>
+            
+            <div class="menuiconcontainer">
+                <span class="material-icons-outlined">
+                    drag_handle
+                </span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="left">
+                <div class="leftcontainer">
+                    <h1>Hang out<br>
+                        whenever, wherever
+                    </h1>
+                    <p>
+                        Messenger makes it easy and fun to stay close to your favourite people.
+                    </p>
+                    <input class="toggle" type="email" placeholder="email or phone number">
+                    <input class="toggle" type="password" placeholder="password">
+                    <button class="Login">Login</button>
+                    <span>    
+                        <a href="#" style="color:inherit; text-decoration: none; ">Forgotten your password</a>
+                    </span>
+                    <div class="checkboxcontainer">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Keep me just sign in</label>
+                    </div>
+                    <div>
+                        <img class="appleimg" src="https://bit.ly/4bP8pj9" alt="appleimg">
+                        <img class="microsoftimg" src="https://bit.ly/3UDTbqI" alt="microsoftimg">
+                    </div>
+                </div>    
+            </div>
+            <div class="right">
+                <img class="rightimage" src="https://bit.ly/3uo7TaV">
+            </div>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>

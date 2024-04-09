@@ -1,0 +1,32 @@
+audio{
+    appearance: none;
+    accent-color: red;
+}
+body{
+    background-color: #22d1ee ;
+    width: 100%;
+    height: 100vh;
+    font-family: poppins;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.playListContainer{
+    color: #f4fa9c;
+    margin-bottom: 50px;
+}
+.trackItem{
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid;
+    font-size: 25px;
+    
+}

@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.list-group {
+    list-style: decimal inside;
+    margin: 10px;
+}
+
+.list-group-item {
+    display: list-item;
+}

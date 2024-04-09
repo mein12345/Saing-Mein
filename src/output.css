@@ -1,0 +1,134 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.orderList{
+  list-style: decimal inside;
+}
+
+.list-group-item{
+  display: list-item;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
+
+.conatiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.input1{
+  max-width: 400px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.input1::-moz-placeholder{
+  color: white;
+  padding-left: 5px;
+}
+
+.input1::placeholder{
+  color: white;
+  padding-left: 5px;
+}
+
+.shoppinglistcontainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.productName{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.purchased{
+  text-decoration: line-through;
+  cursor: pointer;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+span{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.productContainer{
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+i{
+  color: black;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.spanTag{
+  padding: 5px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.products{
+  display: inline;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.iconContainer{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* .shoppinglistcontainer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.spanTagList{
+    background-color: white;
+    display: block;
+    padding: 15px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.parentDiv{
+    display: block;
+} */

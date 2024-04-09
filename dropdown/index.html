@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color:lightgray;
+        }
+        .second-child{
+            display: none;
+            z-index: 1;
+        }
+        .first-child{
+            display: block;
+            width: 100px;
+        }
+        .container:hover .second-child{
+            display: inline-block;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first-child">What</div>
+        <div class="second-child">
+            <p>nothing</p>
+            <p>nothing</p>
+            <p>nothing</p>
+        </div>
+    </div>
+</body>
+</html>

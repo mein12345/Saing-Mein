@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.main-box{
+    background: url(/image/wallpaperflare.com_wallpaper\ \(5\).jpg) center no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.main-box .sidebar-menu{
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0 6px rgba(255,255,255,0.1);
+}
+.sidebar-menu .logo{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgba(255,255,255,0.1);
+}
+.sidebar-menu .logo a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    left: 50px;
+    line-height: 60px;
+    text-decoration: none;
+}
+.sidebar-menu .menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+.sidebar-menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+.sidebar-menu .menu i{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 8px;
+}
+.sidebar-menu .menu a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sidebar-menu .menu li:hover{
+    border-left: 1px solid white;
+    box-shadow: 0 0 4px rgba(255,255,255,0.1)
+}
